@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>ZTSKY_FG_LAB</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZTSKY_FG_LABTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZTSKY_FG_LAB</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>SAPL_ZTSKY_FG_LAB_FM1</FUNCNAME>
+     <SHORT_TEXT>ZTSKY_FG_LAB_FM1</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_DATE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>DATUM</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_CARRID</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>S_CARR_ID</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>WRONG_DATE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ANY_EXCEPTION</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_DATE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Date</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_CARRID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Airline Code</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_DATE</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ANY_EXCEPTION</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

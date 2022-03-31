@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZTSKY_SUPPLY_AMOUNT</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZTSKY_SUPPLY_AMOUNT</DOMNAME>
+    <HEADLEN>30</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Supply amount</DDTEXT>
+    <REPTEXT>Supply amount</REPTEXT>
+    <SCRTEXT_S>Supply amt</SCRTEXT_S>
+    <SCRTEXT_M>Supply amount</SCRTEXT_M>
+    <SCRTEXT_L>Supply amount</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>R</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Количество поставки</DDTEXT>
+     <REPTEXT>Количество поставки</REPTEXT>
+     <SCRTEXT_S>Количество</SCRTEXT_S>
+     <SCRTEXT_M>Количество поставки</SCRTEXT_M>
+     <SCRTEXT_L>Количество поставки</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

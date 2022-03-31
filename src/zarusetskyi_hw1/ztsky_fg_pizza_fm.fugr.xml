@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>FM for Pizza</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZTSKY_FG_PIZZA_FMTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZTSKY_FG_PIZZA_FM</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_TSKY_FG_PIZZA_FME</FUNCNAME>
+     <SHORT_TEXT>FM for Pizza</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_PROD1</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTSKY_PRODUCT_BALANCE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_PROD2</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTSKY_PRODUCT_BALANCE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_PROD3</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTSKY_PRODUCT_BALANCE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_PROD4</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTSKY_PRODUCT_BALANCE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_PROD5</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTSKY_PRODUCT_BALANCE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>OUT_OF_STOCK</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_PROD1</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Product 1</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_PROD2</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Product 2</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_PROD3</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Product 3</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_PROD4</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Product 4</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_PROD5</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Product 5</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>OUT_OF_STOCK</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Out of stock</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

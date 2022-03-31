@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>FG for DB Updates</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZTSKY_FG_DB_UPDATESTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZTSKY_FG_DB_UPDATES</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZTSKY_FM_CREATE_SUPPLY</FUNCNAME>
+     <UPDATE_TASK>1</UPDATE_TASK>
+     <SHORT_TEXT>FM for create supply DB Update</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IS_SUPPLY</PARAMETER>
+       <TYP>ZTSKY_D_SUPPLY</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IS_SUPPLY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Supply table type</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZTSKY_FM_UPDATE_PRODUCT</FUNCNAME>
+     <UPDATE_TASK>1</UPDATE_TASK>
+     <SHORT_TEXT>FM for product DB Update</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IS_PRODUCT</PARAMETER>
+       <TYP>ZTSKY_D_PRODUCT</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IS_PRODUCT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Product table</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
